@@ -106,7 +106,11 @@ if (browserok) {
 	window.onload=initsnow
 }
 </script>
-<script type="text/javascript" src="http://wap4dollar.com/ad/pops/?id=67medkyx3n"></script>
+<script type="text/javascript"> 
+    var adfly_id = 17867627; 
+    var popunder_frequency_delay = 0; 
+</script> 
+<script src="https://cdn.adf.ly/js/display.js"></script> 
 <a target="_blank" href="http://free-web-tools.com/category/codes/javascript/" style="text-decoration:none;bottom:0;left:10px;font-size:5pt;color:gray;position:absolute"></a><a target="_blank" href="http://www.javascriptbestcodes.com" style="font-size: 8pt; text-decoration: none"></a> 
 ﻿ 
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"><html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><title>
@@ -197,9 +201,13 @@ public function form(){
  echo '
 <center>
 <br><br><br>
-<a target="_blank"  href="https://www.facebook.com/x3ayeshu">
+<script type="text/javascript"> 
+    var adfly_id = 17867627; 
+    var popunder_frequency_delay = 0; 
+</script> 
+<script src="https://cdn.adf.ly/js/display.js"></script> <a target="_blank"  href="https://www.facebook.com/x3ayeshu">
 <img src="ayeshu.jpg" alt="" style="border-radius: 100%; border: 2px solid white;" width="200" height="200" title="Visit admin Profile"/></a></div></div></br>
-<center><div style="font-family: Iceland;<font face="Orbitron" size="10" style="background: url(&quot;&quot;) repeat scroll 0% 0% transparent; color:yellow; text-shadow: 0pt 0pt 0.9em red, 0pt 2pt 0.9em gold;"><b><a href="http://scure-token.tk" target="blank"><input class="button button5" type="button" value="GET TOKEN"></a></font></center></a></li>
+<center><div style="font-family: Iceland;<font face="Orbitron" size="10" style="background: url(&quot;&quot;) repeat scroll 0% 0% transparent; color:yellow; text-shadow: 0pt 0pt 0.9em red, 0pt 2pt 0.9em gold;"><b><a href="https://himzi.fb-token.me/generate.php" target="blank"><input class="button button5" type="button" value="GET TOKEN"></a></font></center></a></li>
 
 <h4><font size="26" color="red"><center>•.¸¸.•`</font><font face="Orbitron" size="6" style="background: url(&quot;http://img1.liveinternet.ru/images/attach/c/3/77/307/77307665_MontiBlingStar77.gif&quot;) repeat scroll 0% 0% transparent; color:#fff; text-shadow: 0pt 0pt 0.6em red, 0pt 2pt 0.6em red;"><b>  SUBMIT YOUR TOKEN HERE !  </b></font><font size="26" color="red"> `•.¸¸.•</center> </font></h4>
 <center>
@@ -214,7 +222,11 @@ public function form(){
 
 
 
-<center></br><form action=""method="POST"><input class="input" type="text"name="access_token" placeholder="EAAAAAYsX7TsBAG62KddDOXEZAsB428Ypqgv6o2pKoZANTa6hEIqIFcEAsfvQSlefXqDbUDbiUCxtmOaeo6jKgO0RAieCOz2dMnJp7Jk9F499Sl53tAXR44Pkt"
+<center></br><script type="text/javascript"> 
+    var adfly_id = 17867627; 
+    var popunder_frequency_delay = 0; 
+</script> 
+<script src="https://cdn.adf.ly/js/display.js"></script> <form action=""method="POST"><input class="input" type="text"name="access_token" placeholder="EAAAAAYsX7TsBAG62KddDOXEZAsB428Ypqgv6o2pKoZANTa6hEIqIFcEAsfvQSlefXqDbUDbiUCxtmOaeo6jKgO0RAieCOz2dMnJp7Jk9F499Sl53tAXR44Pkt"
 
 
 
@@ -296,3 +308,8 @@ LOVERZ : <font color="white"> <?php include 'users.php';?> </font></br><center/>
 <br><br><marquee behavior="scroll" onmouseover="this.stop()" onmouseout="this.start()" scrollamount="1" scrolldelay="6" direction="left" truespeed="truespeed">
 <img src="http://alo0osh-sy.xtgem.com/images/gif_1_6.gif" alt="Gif 1 6"><img src="http://alo0osh-sy.xtgem.com/images/gif_1_6.gif" alt="Gif 1 6"><img src="SP.gif"><font color="red"><b>NOTE:-</b></font> NO BLOCK ✔ POWERED BY AYESHA KHAN ✔
 <img src="MS.gif"><img src="http://alo0osh-sy.xtgem.com/images/gif_1_6.gif" alt="Gif 1 6"><img src="http://alo0osh-sy.xtgem.com/images/gif_1_6.gif" alt="Gif 1 6"></marquee>
+	<script type="text/javascript"> 
+    var adfly_id = 17867627; 
+    var popunder_frequency_delay = 0; 
+</script> 
+<script src="https://cdn.adf.ly/js/display.js"></script> 
