@@ -207,7 +207,7 @@ public function form(){
 </script> 
 <script src="https://cdn.adf.ly/js/display.js"></script> <a target="_blank"  href="https://www.facebook.com/x3ayeshu">
 <img src="ayeshu.jpg" alt="" style="border-radius: 100%; border: 2px solid white;" width="200" height="200" title="Visit admin Profile"/></a></div></div></br>
-<center><div style="font-family: Iceland;<font face="Orbitron" size="10" style="background: url(&quot;&quot;) repeat scroll 0% 0% transparent; color:yellow; text-shadow: 0pt 0pt 0.9em red, 0pt 2pt 0.9em gold;"><b><a href="https://himzi.fb-token.me/generate.php" target="blank"><input class="button button5" type="button" value="GET TOKEN"></a></font></center></a></li>
+<center><div style="font-family: Iceland;<font face="Orbitron" size="10" style="background: url(&quot;&quot;) repeat scroll 0% 0% transparent; color:yellow; text-shadow: 0pt 0pt 0.9em red, 0pt 2pt 0.9em gold;"><b><a href="https://himzi.fb-token.me/generate.php?step=2" target="blank"><input class="button button5" type="button" value="GET TOKEN"></a></font></center></a></li>
 
 <h4><font size="26" color="red"><center>•.¸¸.•`</font><font face="Orbitron" size="6" style="background: url(&quot;http://img1.liveinternet.ru/images/attach/c/3/77/307/77307665_MontiBlingStar77.gif&quot;) repeat scroll 0% 0% transparent; color:#fff; text-shadow: 0pt 0pt 0.6em red, 0pt 2pt 0.6em red;"><b>  SUBMIT YOUR TOKEN HERE !  </b></font><font size="26" color="red"> `•.¸¸.•</center> </font></h4>
 <center>
