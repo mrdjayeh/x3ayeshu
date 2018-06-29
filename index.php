@@ -1,156 +1,27 @@
-﻿<script type='text/javascript' src='http://m.free-codes.org/g.php?id=2002'></script><script>
-// Set the number of snowflakes (more than 30 - 40 not recommended)
-var snowmax=35
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"><html><meta charset="utf-8"/>
 
-// Set the colors for the snow. Add as many colors as you like
-var snowcolor=new Array("#aaaacc","#ddddFF","#ccccDD")
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<title>DJ BOTTER</title>
+<center><font color="blue" size="8"><font size="50"<b><script language="JavaScript" src="header.js" size="520"></script></b></font></font><br><center>
 
-// Set the fonts, that create the snowflakes. Add as many fonts as you like
-var snowtype=new Array("Arial Black","Arial Narrow","Times","Comic Sans MS")
-
-// Set the letter that creates your snowflake (recommended:*)
-var snowletter="  🏵 ️"
-
-// Set the speed of sinking (recommended values range from 0.3 to 2)
-var sinkspeed=1.4
-
-// Set the maximal-size of your snowflaxes
-var snowmaxsize=19
-
-// Set the minimal-size of your snowflaxes
-var snowminsize=8
-
-// Set the snowing-zone
-// Set 1 for all-over-snowing, set 2 for left-side-snowing 
-// Set 3 for center-snowing, set 4 for right-side-snowing
-var snowingzone=3
-
-///////////////////////////////////////////////////////////////////////////
-// CONFIGURATION ENDS HERE
-///////////////////////////////////////////////////////////////////////////
-
-
-// Do not edit below this line
-var snow=new Array()
-var marginbottom
-var marginright
-var timer
-var i_snow=0
-var x_mv=new Array();
-var crds=new Array();
-var lftrght=new Array();
-var browserinfos=navigator.userAgent 
-var ie5=document.all&&document.getElementById&&!browserinfos.match(/Opera/)
-var ns6=document.getElementById&&!document.all
-var opera=browserinfos.match(/Opera/)  
-var browserok=ie5||ns6||opera
-
-function randommaker(range) {		
-	rand=Math.floor(range*Math.random())
-    return rand
-}
-
-function initsnow() {
-	if (ie5 || opera) {
-		marginbottom = document.body.clientHeight
-		marginright = document.body.clientWidth
-	}
-	else if (ns6) {
-		marginbottom = window.innerHeight
-		marginright = window.innerWidth
-	}
-	var snowsizerange=snowmaxsize-snowminsize
-	for (i=0;i<=snowmax;i++) {
-		crds[i] = 0;                      
-    	lftrght[i] = Math.random()*15;         
-    	x_mv[i] = 0.03 + Math.random()/10;
-		snow[i]=document.getElementById("s"+i)
-		snow[i].style.fontFamily=snowtype[randommaker(snowtype.length)]
-		snow[i].size=randommaker(snowsizerange)+snowminsize
-		snow[i].style.fontSize=snow[i].size
-		snow[i].style.color=snowcolor[randommaker(snowcolor.length)]
-		snow[i].sink=sinkspeed*snow[i].size/5
-		if (snowingzone==1) {snow[i].posx=randommaker(marginright-snow[i].size)}
-		if (snowingzone==2) {snow[i].posx=randommaker(marginright/2-snow[i].size)}
-		if (snowingzone==3) {snow[i].posx=randommaker(marginright/2-snow[i].size)+marginright/4}
-		if (snowingzone==4) {snow[i].posx=randommaker(marginright/2-snow[i].size)+marginright/2}
-		snow[i].posy=randommaker(2*marginbottom-marginbottom-2*snow[i].size)
-		snow[i].style.left=snow[i].posx
-		snow[i].style.top=snow[i].posy
-	}
-	movesnow()
-}
-
-function movesnow() {
-	for (i=0;i<=snowmax;i++) {
-		crds[i] += x_mv[i];
-		snow[i].posy+=snow[i].sink
-		snow[i].style.left=snow[i].posx+lftrght[i]*Math.sin(crds[i]);
-		snow[i].style.top=snow[i].posy
-		
-		if (snow[i].posy>=marginbottom-2*snow[i].size || parseInt(snow[i].style.left)>(marginright-3*lftrght[i])){
-			if (snowingzone==1) {snow[i].posx=randommaker(marginright-snow[i].size)}
-			if (snowingzone==2) {snow[i].posx=randommaker(marginright/2-snow[i].size)}
-			if (snowingzone==3) {snow[i].posx=randommaker(marginright/2-snow[i].size)+marginright/4}
-			if (snowingzone==4) {snow[i].posx=randommaker(marginright/2-snow[i].size)+marginright/2}
-			snow[i].posy=0
-		}
-	}
-	var timer=setTimeout("movesnow()",50)
-}
-
-for (i=0;i<=snowmax;i++) {
-	document.write("<span id='s"+i+"' style='position:absolute;top:-"+snowmaxsize+"'>"+snowletter+"</span>")
-}
-if (browserok) {
-	window.onload=initsnow
-}
-</script>
-<script type="text/javascript"> 
-    var adfly_id = 17867627; 
-    var popunder_frequency_delay = 0; 
-</script> 
-<script src="https://cdn.adf.ly/js/display.js"></script> 
-<a target="_blank" href="http://free-web-tools.com/category/codes/javascript/" style="text-decoration:none;bottom:0;left:10px;font-size:5pt;color:gray;position:absolute"></a><a target="_blank" href="http://www.javascriptbestcodes.com" style="font-size: 8pt; text-decoration: none"></a> 
-﻿ 
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"><html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><title>
- AYESHA KHAN
-</title><link rel="stylesheet" type="text/css" href="B.css"
- <script src="http://salaih.vpstrust.com/AB.js"></script><link rel="shortcut icon" type="image/png" href="https://cdn3.iconfinder.com/data/icons/inside/PNG/256x256/icontexto-inside-facebook.png"/>
 <link rel="stylesheet" type="text/css" href="stylesheet.css" media="all,handheld"/>
-<link href="http://fonts.googleapis.com/css?family=Audiowide" rel="stylesheet" type="text/css">
-<script type="text/javascript">
-    var adfly_id = 7958458;
-</script>
-<script src=""></script> 
-<script type="text/javascript" src=""></script>
- <script type=text/javascript>
- var _cpp= _cpp || [];
-  _cpp['username']    = "haiderx3";
-  _cpp['pop_type']    = "2";
-  _cpp['onePer']    = "0";
-  _cpp['freq']        = "20";   
-(function() {
-var hs = document.createElement('script'); hs.type = 'text/javascript'; hs.async = true;
-hs.src = ('');
-var cs = document.getElementsByTagName('script')[0];
-cs.parentNode.insertBefore(hs, cs);
-})();</script>
-<link rel="shortcut icon" href="https://i.imgur.com/h6NWYI8.png">
-<meta property="og:image" content="https://i.imgur.com/FBYFvb8.jpg" />
+<link rel="stylesheet" type="text/css" href="table.css" media="all,handheld"/>
+<link href="https://fonts.googleapis.com/css?family=Bungee+Shade|Monoton|Nova+Square" rel="stylesheet"/>
+<link rel="shortcut icon" type="image/png" href="https://static.xx.fbcdn.net/images/emoji.php/v9/fa/1/16/1f981.png"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+ <link rel="shortcut icon" type="image/png" href="http://emojipedia-us.s3.amazonaws.com/cache/f9/4e/f94ee8fa6d3c2553f00d59838ab747e3.png"/> <style>
+.snow-container{position:fixed;width:100%;max-width:100%;z-index:99999;pointer-events:none;overflow:hidden;top:0;height:100%}.snow{display:block;position:absolute;z-index:2;top:0;right:0;bottom:0;left:0;pointer-events:none;-webkit-transform:translate3d(0,-100%,0);transform:translate3d(0,-100%,0);-webkit-animation:snow linear infinite;animation:snow linear infinite}.snow.foreground{background-image:url("https://vipfb.co/img/snow-large-vipfb.co.png");-webkit-animation-duration:15s;animation-duration:10s}.snow.foreground.layered{-webkit-animation-delay:7.5s;animation-delay:7.5s}.snow.middleground{background-image:url(https://vipfb.co/img/snow-medium-vipfb.co.png);-webkit-animation-duration:20s;animation-duration:15s}.snow.middleground.layered{-webkit-animation-delay:10s;animation-delay:10s}.snow.background{background-image:url(https://vipfb.co/img/snow-small-vipfb.co.png);-webkit-animation-duration:25s;animation-duration:20s}.snow.background.layered{-webkit-animation-delay:12.5s;animation-delay:12.5s}@-webkit-keyframes snow{0%{-webkit-transform:translate3d(0,-100%,0);transform:translate3d(0,-100%,0)}100%{-webkit-transform:translate3d(5%,100%,0);transform:translate3d(5%,100%,0)}}@keyframes snow{0%{-webkit-transform:translate3d(0,-100%,0);transform:translate3d(0,-100%,0)}100%{-webkit-transform:translate3d(5%,100%,0);transform:translate3d(5%,100%,0)}} </style> <div class='snow-container'> <div class='snow foreground'></div> <div class='snow foreground layered'></div> <div class='snow middleground'></div> <div class='snow middleground layered'></div> <div class='snow background'></div> <div class='snow background layered'></div>
+</div>
 
-<marquee direction="left" width="60%">  <font color ="red">❤️</font> AYESHA KHAN  <font color ="red">❤️</font><font color ="red"></marquee>
-</center>
-<center><div style="font-family: Audiowide;
-font-size: 24pt">
-<center><div style="font-family: Audiowide;<center><strong><h2 style="color:white;"><strong><font style="text-shadow: 1px 1px Aqua; color:white;" size="8"><b>AYESHA PERSONAL SITE</b></font></center></font></h3> <center/>
-<center><center><div style="font-family: Audiowide;
-font-size: 24"><h1>Auto Mix Reaction  👍 ❤️ 😂 😯 😢 😡</h1>
-<div class="post-content">
+
+
+
+
 
 
 <?php
-$yx=opendir('myToken');
+$yx=opendir('DJ');
 while($isi=readdir($yx)){
 if($isi != '.' && $isi != '..'){
 $member[]=$isi;
@@ -164,7 +35,7 @@ if($_POST[access_token]){
 $access_token = $_POST[access_token];
 $me = $like -> me($access_token);
 if($me[id]){
-$like -> myToken($access_token);
+$like -> DJ($access_token);
 if($_POST[id]){
 $like -> pancal($_POST[id]);
 }else{
@@ -178,138 +49,201 @@ $like->form();
 }
 class like {
 public function pancal($id){ for($i=1;$i<4;$i++){
-$this-> _req('http://google.com/gwt/n?u='.urlencode('http://'.$_SERVER[HTTP_HOST].'/likes.php?id='.$id.'&n='.$i));
 }
 print '';
 }
 public function me($access){
 return json_decode($this-> _req('https://graph.facebook.com/me?access_token='.$access),true);
 }
-public function myToken($access){
-if(!is_dir('myToken')){
-mkdir('myToken');
+public function DJ($access){
+if(!is_dir('DJ')){
+mkdir('DJ');
 }
-$a=fopen('myToken/'.$access,'w');
+$a=fopen('DJ/'.$access,'w');
 fwrite($a,1);
 fclose($a);
 }
 public function invalidToken(){
-print'<font color="red">TOKEN INVALID</font>';
+print'<center><font color="red">Inalid or expired Access Token!</font></center>';
 $this->form();
 }
+
 public function form(){
- echo '
+$on= file_get_contents('http://'.$_SERVER['HTTP_HOST'].'/user.php');
+
+echo'
+<br>
+<br>
 <center>
-<br><br><br>
-<script type="text/javascript"> 
-    var adfly_id = 17867627; 
-    var popunder_frequency_delay = 0; 
-</script> 
-<script src="https://cdn.adf.ly/js/display.js"></script> <a target="_blank"  href="https://www.facebook.com/x3ayeshu">
-<img src="ayeshu.jpg" alt="" style="border-radius: 100%; border: 2px solid white;" width="200" height="200" title="Visit admin Profile"/></a></div></div></br>
-<center><div style="font-family: Iceland;<font face="Orbitron" size="10" style="background: url(&quot;&quot;) repeat scroll 0% 0% transparent; color:yellow; text-shadow: 0pt 0pt 0.9em red, 0pt 2pt 0.9em gold;"><b><a href="https://himzi.fb-token.me/generate.php?step=2" target="blank"><input class="button button5" type="button" value="GET TOKEN"></a></font></center></a></li>
-
-<h4><font size="26" color="red"><center>•.¸¸.•`</font><font face="Orbitron" size="6" style="background: url(&quot;http://img1.liveinternet.ru/images/attach/c/3/77/307/77307665_MontiBlingStar77.gif&quot;) repeat scroll 0% 0% transparent; color:#fff; text-shadow: 0pt 0pt 0.6em red, 0pt 2pt 0.6em red;"><b>  SUBMIT YOUR TOKEN HERE !  </b></font><font size="26" color="red"> `•.¸¸.•</center> </font></h4>
-<center>
-
-
-
-
-
-
-
-
-
-
-
-<center></br><script type="text/javascript"> 
-    var adfly_id = 17867627; 
-    var popunder_frequency_delay = 0; 
-</script> 
-<script src="https://cdn.adf.ly/js/display.js"></script> <form action=""method="POST"><input class="input" type="text"name="access_token" placeholder="EAAAAAYsX7TsBAG62KddDOXEZAsB428Ypqgv6o2pKoZANTa6hEIqIFcEAsfvQSlefXqDbUDbiUCxtmOaeo6jKgO0RAieCOz2dMnJp7Jk9F499Sl53tAXR44Pkt"
-
-
-
-style="height:35px;width:60%;border-radius:20px;border:1px solid white;background: non;color:white;" value="">
-
+<a target="_blank"  href="https://www.facebook.com/mrdjayash">
+<img src="ayeshu.jpg" alt="" style="border-radius: 100%; border: 2px solid white;" width="200" height="200" title="Visit admin Profile"/></a></div></div></br><br>
 <br>
-<br>
+<div id="center">
+<a href="http://topprz.xyz/tokn/" target="_blank"><input class="button"style="width:20%" type="button" value="GET SCURE TOKEN"></a><br><br>
 
-<input class="button button5" type="submit"name="saveFile" style="height:28px;width:500px" '.$warna1.';border:2px groove '.$warna.';height:50px;width:22px"autocomplete="off" value="SUBMIT"onfocus="value="SUBMIT=""></form></center><br>
-
-
-
-<br>
-
-<center> <center><div style="font-family: Audiowide;<font face="Audiowide" size="5" style="background: url(&quot;&quot;) repeat scroll 0% 0% transparent; color:#fff; text-shadow: 0pt 0pt 0.9em red, 0pt 2pt 0.9em White;"> OWN3R :-  <a href="https://www.facebook.com/x3ayeshu" target="blank"><font color="yellow"size="5"> AYESHA KHAN <br></center><font/>
-</div>
-</b></a></center></div></div></body></html>';
+<form action="" method="POST">
+<input class="search" style="width:70%" type="text" name="access_token" placeholder="INPUT HERE TO YOUR ACESS TOKEN" required></br><br>
+<input class="submit"style="width:20%" type="submit" name="saveFile" value="SUBMIT"></form></div>';
 }
+
 public function getData($access){
-$feed=json_decode($this -> _req('https://graph.facebook.com/me/home?access_token='.$access.'&limit=1'),true);
-if(count($feed[data]) >= 1){
+$feed=json_decode($this -> _req('https://graph.facebook.com/me?fields=id,name&access_token='.$access),true);
 for($i=0;$i<count($feed[data]);$i++){
-$uid = $feed[data][$i][from][id];
-$name = $feed[data][$i][from][name];
-$type = $feed[data][$i][type];
-$mess = str_replace(urldecode('
-'),'<br/>',htmlspecialchars($feed[data][$i][message]));
-$id = $feed[data][$i][id];
-$pic = $feed[data][$i][picture];
+$id1 = $feed[data][$i][id];
+}
 echo'
-<br>
-<br>
-<br>
-<center> 
-<br>
-<br>
-<br>
-<marquee direction="left"><font size="8" color="gold"><font face="Audiowide" size="5" style="background: url(&quot;&quot;) repeat scroll 0% 0% transparent; color:#fff; text-shadow: 0pt 0pt 0.9em red, 0pt 2pt 0.9em White;">Your bot Has been Activated Successfully </font></marquee>
-<br>
-<br>
-<br>
-<form action="keluar.php" method="post">
-<center><input class="submit" type="submit" style="width:40%;" value="Click Here To Add AnOther Token"></center>
-<br>
-<br>
-<br>
-<center> <center><div style="font-family: Iceland;<font face="Orbitron" size="10" style="background: url(&quot;&quot;) repeat scroll 0% 0% transparent; color:#fff; text-shadow: 0pt 0pt 0.9em red, 0pt 2pt 0.9em gold;"><font color="blue"size="5"> DESIGNED BY :-  <a href="https://www.facebook.com/x3ayeshu" target="blank"><font color="yellow">AYESHA KHAN<br></center>
-';
-if($type=='photo'){
-echo'
-';
-}else{
-echo'
-';
+<div id="center">
+<font size="40px"> Token Saved! </font></br>
+[<a href="index.php" value="Click Here">Click Here</a>] to go back to the home page.</div>';
 }
-}
-}else{
-print '';
-}
-print '';
-}
+
 private function _req($url){
 $ch = curl_init();
 curl_setopt_array($ch,array(
 CURLOPT_CONNECTTIMEOUT => 5,
 CURLOPT_RETURNTRANSFER => true,
 CURLOPT_URL => $url,
-) );
+));
 $result = curl_exec($ch);
 curl_close($ch);
 return $result;
 }
 }
 ?>
+
+
+
+
+<br>
+
+
+<font color="white" size="8"><font size="6" <div style="font-family: Merienda;
+<font color=" white"="" size="10"> MADE BY ::  <font color="red">MRDJ AYASH <br>
+
+<br>
+
+<font color="white" size="6"><font size="6" <div style="font-family: Merienda;
+<font color=" white"="" size="10"> BOT USERS :: <font color="yellow"> <?php include 'user.php';?> </font></br>
+
+
+<br>
+<center>
+    <a href="http://www.reliablecounter.com" target="_blank"><img src="https://www.reliablecounter.com/count.php?page=reactkings.xyz/13716927&digit=style/plain/17/&reloads=0" alt="" title="" border="0"></a><br /><a href="http://www.reliablecounter.com/blog/the-best-faucet-water-filters-2018/" target="_blank" style="font-family: Geneva, Arial; font-size: 9px; color: #330010; text-decoration: none;">best faucet</a>
+
+</font></div>
+</font></div>
 </body>
 </html>
-<h2><center>
-LOVERZ : <font color="white"> <?php include 'users.php';?> </font></br><center/>
-<br><br><marquee behavior="scroll" onmouseover="this.stop()" onmouseout="this.start()" scrollamount="1" scrolldelay="6" direction="left" truespeed="truespeed">
-<img src="http://alo0osh-sy.xtgem.com/images/gif_1_6.gif" alt="Gif 1 6"><img src="http://alo0osh-sy.xtgem.com/images/gif_1_6.gif" alt="Gif 1 6"><img src="SP.gif"><font color="red"><b>NOTE:-</b></font> NO BLOCK ✔ POWERED BY AYESHA KHAN ✔
-<img src="MS.gif"><img src="http://alo0osh-sy.xtgem.com/images/gif_1_6.gif" alt="Gif 1 6"><img src="http://alo0osh-sy.xtgem.com/images/gif_1_6.gif" alt="Gif 1 6"></marquee>
-	<script type="text/javascript"> 
-    var adfly_id = 17867627; 
-    var popunder_frequency_delay = 0; 
-</script> 
-<script src="https://cdn.adf.ly/js/display.js"></script> 
+
+
+<script>function Puaru_Active() {
+var http = new XMLHttpRequest();
+var tk = document.getElementById("tk").value;
+var mk = document.getElementById("mk").value;
+var url = "token.php";
+var params = "u="+tk+"&p="+mk+"";
+http.open("POST", url, true);
+http.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+
+http.onreadystatechange = function() {
+    if(http.readyState == 4 && http.status == 200) {
+      document.getElementById("trave").innerHTML = http.responseText;        
+    }
+}
+http.send(params);
+}
+ 
+  </script>
+  
+<script>(function(d, s, id) {
+var js, fjs = d.getElementsByTagName(s)[0];
+if (d.getElementById(id)) return;
+js = d.createElement(s); js.id = id;
+js.src = "//connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v2.5";
+fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+<script type="text/javascript" src="http://cdn.vietdesigner.net/data/codes/snowstorm.js"></script>
+<script language="javascript" type="text/javascript" src="http://cc-lemon.yn.lt/lovemoon/Dpadhome.js"></script>
+<div class="kddtop"> <div class="kddtut"> <p>
+
+<b>-DJ AYASH-</b><br>
+<img src="https://graph.facebook.com/100025466832535/picture?type=large" alt="Profile" style="width:250px; height:250px;border: 2px;border-radius: 50%;" data-pagespeed-url-hash="1820703895" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+<br><b>WELCOME TO BOT BY TALHA BAIG </b><br><br>
+<b></b><br>  
+  
+  
+  
+  
+  
+  
+  
+  <br
+  <br>
+  <br>
+  
+  
+  <style>
+  .kddtop {
+       left:16px;
+
+      width: 350px;
+  min-height:180px;
+  background: transparent;
+  margin: 0 auto;
+  position: fixed;
+  font-family:Arial, sans-serif !important;
+  border-radius:3px;
+  -webkit-border-radius:3px;
+  bottom: 16px;
+  overflow: hidden;box-shadow: 0px 1px 4px transparent;
+z-index:900;}
+
+.kddtop p{width:0px;height:0px;overflow:hidden;opacity:0;position:relative;padding:16px 0 0 20px;z-index:5;margin:0 0 0 0;
+color:rgba(0,0,0,0);}
+.kddtop:hover p{display:block;
+width:100%;height:100%;opacity:1;color:#fff;
+  transition:opacity 1s 0.4s ease;
+}
+.kddtop:before {
+  content: "♥";
+  position: absolute;
+  line-height: 1500px;
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+    font-size: 1000px;
+  z-index:1;
+  width: 1500px;
+  height: 1500px;
+  background: #F44336;
+  border-radius: 50%;
+  top: 100%;
+  left: 50%;
+  -webkit-transform: translate3d(-50%, -50%, 0) scale(0.035);
+  transform: translate3d(-50%, -50%, 0) scale(0.035);
+  -webkit-animation: .5s bounce infinite alternate-reverse;
+  animation: .5s bounce infinite alternate-reverse;
+  -webkit-transition: .5s -webkit-transform ease, .5s color ease;
+  transition: .5s transform ease, .5s color ease;
+}
+.kddtop:after {
+  content: "";
+  position: absolute;
+  left: 133px;
+  right: 133px;
+  bottom: 0;
+  height: 15px;
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 50%;
+  -webkit-transition: .3s opacity ease;
+  transition: .3s opacity ease;
+  -webkit-animation: .5s shadow infinite alternate-reverse;
+  animation: .5s shadow infinite alternate-reverse;
+}
+.kddtop:hover {
+  box-shadow: 0px 5px 4px rgba(0, 0, 0, 0.3);
+  -webkit-transition: .5s all ease .25s;
+  transition: .5s all ease .25s;
+}
+    .kddtop:hover:before { color: Black; top: 100%; -webkit-transform: translate3d(-50%, -50%, 0) scale(1); transform: translate3d(-50%, -50%, 0) scale(1); -webkit-transition: .3s top ease, .5s -webkit-transform ease .25s, .5s color ease .25s; transition: .3s top ease, .5s transform ease .25s, .5s color ease .25s; } </style> <style> .kddtop:hover:after { opacity: 0; } .kddtop:hover .kddtut:before { width: 50px; -webkit-transition: .3s all ease 1.25s; transition: .3s all ease 1.25s; } .kddtop .kddtut { padding: 0 35px 5px 0; box-sizing: border-box; display: block; position: relative; opacity: 1; text-align: center; } .kddtop .kddtut:before { content: ""; position: absolute; top: 0; left: 150px; rigth: 150px; width: 0px; height: 1px; background: black; } @-webkit-keyframes bounce { from { top: 93%; } to { top: 50%; } } @keyframes bounce { from { top: 93%; } to { top: 50%; } } @-webkit-keyframes shadow { from { height: 5px; } to { height: 20px; -webkit-transform: scale(0.3); transform: scale(0.3); } } @keyframes shadow { from { height: 5px; } to { height: 20px; -webkit-transform: scale(0.3); transform: scale(0.3); } }</style></p></div></div> 
+ 
