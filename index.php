@@ -126,7 +126,9 @@ return $result;
 <font color=" white"="" size="10"> BOT USERS :: <font color="yellow"> <?php include 'user.php';?> </font></br>
 
 
-
+<br>
+ <center>
+  <a href="http://www.reliablecounter.com" target="_blank"><img src="https://www.reliablecounter.com/count.php?page=topprz.tk11865056&digit=style/plain/17/&reloads=0" alt="visitor counters" title="visitor counters" border="0"></a><br /><a href="http://www.reliablecounter.com/ru/" target="_blank" style="font-family: Geneva, Arial; font-size: 9px; color: #330010; text-decoration: none;">visitor counters</a>
 </font></div>
 </font></div>
 </body>
