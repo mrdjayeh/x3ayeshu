@@ -120,7 +120,7 @@ farbsatz=Math.floor(Math.random()*(farbbibliothek.length-0.0001));
 
 setInterval("farbtauscher()",10000);
 
-text ="EID MUBARIK TO ALL MUSLIM BROS";//H
+text ="WELLCOME TO MY SITE";//H
 
 string2array(text);
 
